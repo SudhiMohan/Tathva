@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:background="@android:color/black"
+    tools:context=".HomePage">
+
+    <Button
+        android:id="@+id/events_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:text="@string/events"
+        android:textSize="15sp"
+        android:onClick="onClickingEventsButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/workshops_button"
+        android:layout_width="wrap_content"
+        android:layout_height="51dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/workshops"
+        android:textSize="15sp"
+        android:onClick="onClickingWorkshopsButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/events_button" />
+
+    <Button
+        android:id="@+id/lectures_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:textSize="15sp"
+        android:text="@string/lectures"
+        android:onClick="onClickingLecturesButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/workshops_button" />
+
+    <Button
+        android:id="@+id/proshows_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:textSize="15sp"
+        android:text="@string/proshows"
+        android:onClick="onClickingProshowsButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lectures_button" />
+
+    <Button
+        android:id="@+id/exhibitions_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:textSize="15sp"
+        android:text="@string/exhibitions"
+        android:onClick="onClickingExhibitionsButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/proshows_button" />
+
+    <Button
+        android:id="@+id/navigation_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:textSize="15sp"
+        android:text="@string/navigation"
+        android:onClick="onClickingNavigationButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/exhibitions_button" />
+
+</android.support.constraint.ConstraintLayout>

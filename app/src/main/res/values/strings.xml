@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Tathva</string>
+    <string name="adizya">Adizya</string>
+    <string name="aavishkar">Aavishkar</string>
+    <string name="blitzkrieg">Blitzkrieg</string>
+    <string name="events">Events</string>
+    <string name="workshops">Workshops</string>
+    <string name="lectures">Lectures</string>
+    <string name="proshows">Proshows</string>
+    <string name="exhibitions">Exhibitions</string>
+    <string name="navigation">Navigation</string>
+
+</resources>

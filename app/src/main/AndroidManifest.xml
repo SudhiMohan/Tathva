@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.firstapp.sudhimon.tathva">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".HomePage">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".EventsPage"
+            android:label="@string/events"
+            android:theme="@style/AppTheme"
+            />
+
+        <activity android:name=".NavigationPage"
+            android:label="@string/navigation"
+            android:theme="@style/AppTheme"
+            />
+        <activity android:name=".ExhibitionsPage"
+            android:label="@string/exhibitions"
+            android:theme="@style/AppTheme"
+            />
+        <activity android:name=".ProshowsPage"
+            android:label="@string/proshows"
+            android:theme="@style/AppTheme"
+            />
+        <activity android:name=".LecturesPage"
+            android:label="@string/lectures"
+            android:theme="@style/AppTheme"
+            />
+        <activity android:name=".WorkshopsPage"
+            android:label="@string/workshops"
+            android:theme="@style/AppTheme"
+            />
+    </application>
+
+</manifest>
